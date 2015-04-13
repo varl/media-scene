@@ -1,7 +1,14 @@
 
-# media-scene (media-scene)
+# media-scene
 
-> A simple (as in not complex)  media center acting as a scene for your media-artwork..
+> A simple (as in not complex) media center acting as a scene for your [media-artwork](https://github.com/varl/media-artwork).
+
+## Feature list
+- _Local metadata:_ Relies on locally stored, meticulously managed metadata.
+- _Fanart centered:_ Pulls locally stored fanart and presents it front and center.
+- _Device agnostic:_ Any device can be a media center.
+- _Browatch support:_ Have friends connect to your currently playing media and enjoy it together.
+- _Multiple users:_ When there is no agreement on what to play.
 
 ## Running your project
 
@@ -16,7 +23,6 @@ If you prefer to just build without the live reload and build-on-each-change wat
 ```bash
 $ npm run build
 ```
-
 
 ## Generating Additional Code
 
