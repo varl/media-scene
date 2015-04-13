@@ -3,9 +3,9 @@ var fs = require('fs');
 var q = require('q');
 
 var _media = {
-  'music': undefined,
-  'movies': undefined,
-  'tv': undefined
+  music: undefined,
+  movies: undefined,
+  tv: undefined
 };
 
 var findMedia = function (category, path, callback) {
